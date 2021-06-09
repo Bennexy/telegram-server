@@ -24,7 +24,7 @@ class MyApi(Api):
     @property
     def specs_url(self):
         """Monkey patch for HTTPS"""
-        scheme = "http" if "8001" in self.base_url else "https"
+        scheme = "http" if "8002" in self.base_url else "https"
         return url_for(self.endpoint("specs"), _external=True, _scheme=scheme)
 
 

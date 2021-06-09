@@ -10,5 +10,5 @@ if ENV_FILE:
 
 
 ServerUrl = env("ServerUrl")
-
+TELEGRAM_API_KEY= env("TELEGRAM_API_KEY")
 
